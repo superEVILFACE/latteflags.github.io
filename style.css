@@ -143,22 +143,6 @@ h2
     height: auto;
 }
 
-/* GIF stuff */ 
-
-#gif-container {
-    position: fixed;
-    right: -568px;
-    top: 50%;
-    transform: translateY(-50%);
-    transition: right 1s cubic-bezier(0.25, 1, 0.5, 1);
-    z-index: 1000;
-}
-
-#sliding-gif {
-    width: 568px;
-    height: auto;
-}
-
 .flags input[type="checkbox"] {
     -webkit-appearance: none; /* Remove default styling */
     appearance: none; /* Remove default styling */

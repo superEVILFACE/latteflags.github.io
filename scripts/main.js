@@ -11,12 +11,6 @@ function main() {
         downloadAnchor.setAttribute("download", "selected_flags.json");
         downloadAnchor.click();
     });
-    
-    document.addEventListener('DOMContentLoaded', () => {
-        setTimeout(() => {
-            document.getElementById('gif-container').style.right = '-284';
-        }, 100);
-    });
 }
 
 function displayJSONData(data) {

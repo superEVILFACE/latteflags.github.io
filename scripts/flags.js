@@ -236,7 +236,42 @@ const latte_flags = {
                 "DFIntTextureCompositorActiveJobs": "0"
             }
         },
-        
+        {
+            "name": "Texture Manager",
+            "description": "TIP: 1-4 Blurry, 5-7 low quality also removes studs, 8 Removes almost everything",
+            "flags": {
+                "FIntDebugTextureManagerSkipMips": "-1"
+            }
+        },
+        {
+            "name": "Remove Grass",
+            "flags": {
+                "FIntFRMMinGrassDistance": "0",
+                "FIntFRMMaxGrassDistance": "0",
+                "FIntRenderGrassDetailStrands": "0",
+            }
+        },
+        {
+            "name": "Force MSAA",
+            "description": "IMPORTANT: Values: 0, 1, 2, 4, 8<br></br>CAUTION:Values over 4> will cause viewport bugs",
+            "flags": {
+                "FIntDebugForceMSAASamples": "4"
+            }
+        },
+        {
+            "name": "ShadowMap Bias",
+            "description": "IMPORTANT: Future & ShadowMap only",
+            "flags": {
+                "FIntRenderShadowmapBias": "75"
+            }
+        },
+        {
+            "name": "Limit number of animations being played",
+            "description": "TIP: 0 removes most player animations, 1-5 removes the walk animation after jumping",
+            "flags": {
+                "DFIntMaxActiveAnimationTracks": "0"
+            }
+        }
     ],
 
     "Physics (Abusive)": [
